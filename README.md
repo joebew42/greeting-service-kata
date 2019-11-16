@@ -4,7 +4,7 @@ A code kata intended to pratice TDD Outside-In.
 
 ## Background
 
-The HELLO WORLD! Inc. company want to build a new service to reply with customized greeting messages each time it's invoked by a user.
+The HELLO WORLD! Inc. company is willing to release a new product in the market! They want to build a new Greetings Service to send customized greeting messages each time a user request it.
 
 **Requirements**
 
