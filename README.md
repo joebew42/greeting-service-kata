@@ -92,7 +92,7 @@ Localize the greeting message based on the language preference of the user.
 ## Retrospective
 
 - Do you think your design is simple enough?
-- TODO
+- What are the parts of your code you believe are most likely to change?
 - TODO
 
 ## Credits
