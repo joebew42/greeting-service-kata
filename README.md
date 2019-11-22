@@ -63,7 +63,7 @@ The system replies with "Good morning, Joe! The sun is high and shining!"
 **List of predefined messages based on the time**
 
 - **Morning (from 7 AM to 11 AM)** :sunny: 
-    - `Good morning, Joe! The sun is high and shining!`
+    - `Good morning, {User}! The sun is high and shining!`
     - `Hey {User}, nice to see you here!`
     - `{User} welcome back!`
     - `Have a splendid day {User}.`
@@ -93,7 +93,6 @@ Localize the greeting message based on the language preference of the user.
 
 - Do you think your design is simple enough?
 - What are the parts of your code you believe are most likely to change?
-- TODO
 
 ## Credits
 
