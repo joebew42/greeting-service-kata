@@ -67,10 +67,10 @@ The system replies with "Good morning, Joe! The sun is high and shining!"
     - `Hey {User}, nice to see you here!`
     - `{User} welcome back!`
     - `Have a splendid day {User}.`
-- **The rest of the day (from 11 AM to 8 PM)** :clock3: 
+- **The rest of the day (from 12 PM to 8 PM)** :clock3: 
     - `Hello {User}!`
     - `You are great {User}`
-- **Night (from 8 PM to 7 AM)** :zzz: 
+- **Night (from 9 PM to 6 AM)** :zzz: 
     - `Have a good night, {User}`
     - `Wish you sweet dreams {User} ...`
     - `It was a great day! {User} it's time to relax!`
