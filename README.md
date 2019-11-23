@@ -47,6 +47,11 @@ The system replies with "Hey Joe, nice to see you here!"
 - `{User} welcome back!`
 - `Have a splendid day {User}.`
 
+## Retrospective
+
+- How difficult it was to boostrap your project and setup your first test?
+- Do you think the requirements were clear enough?
+- Which was the most difficult step? Why?
 
 ## Feature Three
 
@@ -62,37 +67,24 @@ The system replies with "Good morning, Joe! The sun is high and shining!"
 
 **List of predefined messages based on the time**
 
-- **Morning (from 7 AM to 11 AM)** :sunny: 
+- **Morning (from 7 AM to 11 AM)** :sunny:
     - `Good morning, {User}! The sun is high and shining!`
     - `Hey {User}, nice to see you here!`
     - `{User} welcome back!`
     - `Have a splendid day {User}.`
-- **The rest of the day (from 12 PM to 8 PM)** :clock3: 
+- **The rest of the day (from 12 PM to 8 PM)** :clock3:
     - `Hello {User}!`
     - `You are great {User}`
-- **Night (from 9 PM to 6 AM)** :zzz: 
+- **Night (from 9 PM to 6 AM)** :zzz:
     - `Have a good night, {User}`
     - `Wish you sweet dreams {User} ...`
     - `It was a great day! {User} it's time to relax!`
 
 ## Retrospective
 
-- How difficult it was to boostrap your project and setup your first test?
-- Do you think the requirements were clear enough?
-- Which was the most difficult step? Why?
-
-## Feature Four (extra)
-
-Prevent to reply the same greeting message twice for the same user.
-
-## Feature Five (extra)
-
-Localize the greeting message based on the language preference of the user.
-
-## Retrospective
-
 - Do you think your design is simple enough?
 - What are the parts of your code you believe are most likely to change?
+    - Do you think your code can be easily extended?
 
 ## Credits
 
