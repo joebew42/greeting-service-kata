@@ -34,7 +34,7 @@ Then the system will reply with a customized message that says:
 
 ## Second Feature
 
-_Greeting a User by choosing a greeting message from a predefined set of messages_
+_Greeting a User by choosing a random greeting message from a set of messages_
 
 ```
 When a User with the name Joe request a greeting message
