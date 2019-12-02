@@ -9,35 +9,37 @@ The HELLO WORLD! Inc. company is willing to release a new product in the market!
 **Requirements**
 
 * The service should expose an HTTP API to be invoked by external services or users.
-* The service can be invoked directly from a command line or an interactive shell.
+* The service can be directly invoked from a command line or an interactive shell.
 
 ## Instructions
 
 1. Complete each feature before proceeding to the next one.
 
-## Feature One
+## First Feature
 
-_Greeting a User!_
-
-```
-When Joe request a greeting message
-The system replies with "Hello Joe!"
-```
-
-_Greeting when a User is not specified!_
+_Just a Greeting_
 
 ```
-When a greeting message is requested with no User
-The system replies with "Hello my friend!"
+When a greeting message is requested
+Then the system will reply with "Hello my friend!"
 ```
 
-## Feature Two
+_Greeting a User with a customized message!_
+
+```
+When a User with the name Joe request a greeting message
+Then the system will reply with a customized message that says:
+"Hello Joe!"
+```
+
+## Second Feature
 
 _Greeting a User by choosing a greeting message from a predefined set of messages_
 
 ```
-When Joe request a greeting message
-The system replies with "Hey Joe, nice to see you here!"
+When a User with the name Joe request a greeting message
+Then the system will reply with a customized message that says:
+"Hey Joe, nice to see you here!"
 ```
 
 **List of predefined messages**
@@ -53,16 +55,17 @@ The system replies with "Hey Joe, nice to see you here!"
 - Do you think the requirements were clear enough?
 - Which was the most difficult step? Why?
 
-## Feature Three
+## Third Feature
 
 _Greeting a User by choosing a greeting message from a predefined set of messages, **based on the time of the day**._
 
 **Requesting a greeting message early in the morning**
 
 ```
-When Joe request a greeting message
+When a User with the name Joe request a greeting message
 And the time is early in the morning
-The system replies with "Good morning, Joe! The sun is high and shining!"
+Then the system will reply with a customized message that says:
+"Good morning, Joe! The sun is high and shining!"
 ```
 
 **List of predefined messages based on the time**
