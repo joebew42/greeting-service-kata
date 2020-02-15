@@ -1,6 +1,6 @@
 # Greeting Service Kata
 
-A Code Kata intended to pratice TDD Outside-In.
+A Code Kata intended to practice TDD Outside-In.
 
 ## Welcome!
 
