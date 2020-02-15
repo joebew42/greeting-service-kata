@@ -13,7 +13,7 @@ Hello developer! :wave: At the _HELLO WORLD! Inc._ company we are excited to dev
 
 _Try to complete each feature before proceeding to the next one. We like to work iteratively._
 
-## First Feature
+## Feature One
 
 _Just a Greeting_
 
@@ -22,7 +22,7 @@ When a greeting message is requested
 Then the system will reply with "Hello my friend!"
 ```
 
-## Second Feature
+## Feature Two
 
 _Greeting a User with a customized message!_
 
@@ -32,7 +32,7 @@ Then the system will reply with a customized message that says:
 "Hello Joe!"
 ```
 
-## Third Feature
+## Feature Three
 
 _Greeting a User by choosing a random greeting message from a set of messages_
 
@@ -55,7 +55,7 @@ Then the system will reply with a customized message that says:
 - Do you think the requirements were clear enough?
 - Which was the most difficult step? Why?
 
-## Fourth Feature
+## Feature Four
 
 _Greeting a User by choosing a greeting message from a predefined set of messages, **based on the time of the day**._
 
