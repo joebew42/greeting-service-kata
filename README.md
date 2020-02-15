@@ -1,19 +1,17 @@
 # Greeting Service Kata
 
-A code kata intended to pratice TDD Outside-In.
+A Code Kata intended to pratice TDD Outside-In.
 
-## Background
+## Welcome!
 
-The HELLO WORLD! Inc. company is willing to release a new product in the market! They want to build a new Greetings Service to send customized greeting messages each time a user request it.
+Hello developer! :wave: At the _HELLO WORLD! Inc._ company we are excited to develop and release a new idea into the market! We want to build a new service to send customized greeting messages to our users.
 
-**Requirements**
+**Here you'll find few requirements**
 
-* The service should expose an HTTP API to be invoked by external services or users.
-* The service can be directly invoked from a command line or an interactive shell.
+* The service have to expose an HTTP API which can be called from other HTTP clients.
+* The service can also be directly used from a command line or an interactive shell.
 
-## Instructions
-
-1. Complete each feature before proceeding to the next one.
+_Try to complete each feature before proceeding to the next one. We like to work iteratively._
 
 ## First Feature
 
@@ -24,6 +22,8 @@ When a greeting message is requested
 Then the system will reply with "Hello my friend!"
 ```
 
+## Second Feature
+
 _Greeting a User with a customized message!_
 
 ```
@@ -32,7 +32,7 @@ Then the system will reply with a customized message that says:
 "Hello Joe!"
 ```
 
-## Second Feature
+## Third Feature
 
 _Greeting a User by choosing a random greeting message from a set of messages_
 
@@ -55,7 +55,7 @@ Then the system will reply with a customized message that says:
 - Do you think the requirements were clear enough?
 - Which was the most difficult step? Why?
 
-## Third Feature
+## Fourth Feature
 
 _Greeting a User by choosing a greeting message from a predefined set of messages, **based on the time of the day**._
 
