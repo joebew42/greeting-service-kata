@@ -9,7 +9,7 @@ Hello developer! :wave: At the _HELLO WORLD! Inc._ company we are excited to dev
 **Here you'll find few requirements**
 
 * The service have to expose an HTTP API which can be called from other HTTP clients.
-* The service can also be directly used from a command line or an interactive shell.
+* The service can also be used from a command line or an interactive shell.
 
 _Try to complete each feature before proceeding to the next one. We like to work iteratively._
 
