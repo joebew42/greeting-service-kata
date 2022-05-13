@@ -11,23 +11,21 @@ public class UserService {
     User user;
 
 
-    public UserService(User user) {
-        this.user = user;
-    }
+  public UserService(User user) {       this.user = user;
+ }
 
 
     public String helloMessage() {
         return "Hello My Friend !";}
 
     public String helloUser() {
-                user.setName("Joe");
+        user.setName("Joe");
         return "hello  " + user.getName();
     }
     public String messageToReTurn(String messagerequest) {
 
         String reply = "";
 
-        user.setName("Joe");
         if (messagerequest ==""){
             reply = "hello " + user.getName();
         }

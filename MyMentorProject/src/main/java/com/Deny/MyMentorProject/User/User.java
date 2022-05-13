@@ -7,6 +7,11 @@ import org.springframework.stereotype.Service;
 public class User {
 
     private Long id;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     private  String name;
     
 
@@ -38,9 +43,7 @@ public class User {
                 '}';
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+
 
 
 }
