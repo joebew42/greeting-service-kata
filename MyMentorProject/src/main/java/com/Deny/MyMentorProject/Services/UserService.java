@@ -1,51 +1,79 @@
 package com.Deny.MyMentorProject.Services;
 
-import com.Deny.MyMentorProject.User.User;
+
+import com.Deny.MyMentorProject.Messages.ListsForMessages;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+
+import java.time.LocalTime;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 @Service
 public class UserService {
 
+
     @Autowired
-    User user;
+    ListsForMessages listsForMessages;
 
-
-  public UserService(User user) {       this.user = user;
- }
-
-
-    public String helloMessage() {
-        return "Hello My Friend !";}
-
-    public String helloUser() {
-        user.setName("Joe");
-        return "hello  " + user.getName();
-    }
-    public String messageToReTurn(String messagerequest) {
-
-        String reply = "";
-
-        if (messagerequest ==""){
-            reply = "hello " + user.getName();
-        }
-        else if (messagerequest ==" happy Message") {
-            reply = "Hey  " + user.getName() + " nice to see you here !!";
-        }
-        else if (messagerequest =="welcome me") {
-
-            reply = user.getName() +" welcome back !!";
-        } else if (messagerequest=="bye message") {
-            reply= "Have a splendid day "+user.getName();
-
-        }
-        System.out.println("messagerequest = " + messagerequest);
-        return reply;
+    public String greeting() {
+        return "Hello My Friend !";
     }
 
+    public String helloUser(String name) {
 
+        return "hello  " + name;
     }
 
+    public String messagesToReturnRandomly(String name) {
+        Random random = new Random();
+
+        List<String> greetings = new ArrayList();
+
+        greetings.add("Hey " + name);
+        greetings.add(name + " welcome back ");
+        greetings.add("Have a splendid day " + name);
+
+        // Random r = new Random();
+
+        int rand = random.nextInt(greetings.size());
+        String randomMessages = greetings.get(rand);
+
+        return randomMessages;
+    }
+
+    public String massageBasedOnTime(String name) {
+
+        LocalTime timeNow = LocalTime.now();
+//    LocalTime startTimeNight;
+//    LocalTime endTimeNight;
+
+        LocalTime startTimeMorning;
+        LocalTime endTimeMorning;
+        LocalTime startTimeRestOfDay;
+        LocalTime endTimeRestOfday;
+
+        startTimeMorning = LocalTime.parse("06:59:59");
+        endTimeMorning = LocalTime.parse("11:59:59");
+
+        startTimeRestOfDay = LocalTime.parse("11:59:59");
+        endTimeRestOfday = LocalTime.parse("19:59:59");
+
+//        startTimeNight = LocalTime.parse("19:59:59");
+//        endTimeNight = LocalTime.parse("06:59:59");
 
 
+        if (timeNow.isBefore(endTimeMorning) && timeNow.isAfter(startTimeMorning)) {
+            return listsForMessages.morningMessages(name);
 
+        } else if (timeNow.isBefore(endTimeRestOfday) && timeNow.isAfter(startTimeRestOfDay)) {
+            return listsForMessages.restOfTheDayMessages(name);
+
+        } else
+
+
+            return listsForMessages.restOfTheDayMessages(name);
+    }
+}
